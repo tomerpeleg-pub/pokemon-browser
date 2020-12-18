@@ -43,7 +43,7 @@ const getPokemonQuery = (first) => `
 // TODO:
 // Should probably move to state manager, or at least a container.
 const pokemonGraphqlEndpoint =
-  process.env.GRAPHQL_ENDPOING_URL || "http://localhost:5000";
+  process.env.REACT_APP_GRAPHQL_ENDPOING_URL || "http://localhost:5000";
 
 export default class PokemonList extends LitElement {
   static get styles() {
